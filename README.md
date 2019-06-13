@@ -19,7 +19,7 @@
 
 ## ODBC连接
 ODBC的连接方式及设置方式以及有无数大佬发过极其详细的帖子了，读者自行百度即可，这里只讲主要思路。<br>
-数据库我最初选择的是MySQL,本人对数据库几乎一无所知，所以这里推荐没有数据库基础的朋友使用Navicat For MySQL这款可视化数据库设计软件，可以省去很多麻烦。
+数据库我最初选择的是MySQL,本人对数据库几乎一无所知，所以这里推荐没有数据库基础的朋友使用Navicat For MySQL这款可视化数据库设计软件，可以省去很多麻烦。终版为使用Access数据库实现的登录系统，读者可参考程序研究实现方法。
 <br>这里放几张过程图：<br>
 <p align="center">
 	<img src="img/Navicat与MySQL建立连接.png" alt="Sample"  width="360" height="500">
@@ -71,4 +71,50 @@ ODBC的连接方式及设置方式以及有无数大佬发过极其详细的帖�
 		<font >进行应用程序默认设置</font>
 	</p>
 </p>
-<h2>我的第一个段落。</h2>
+<h2>动图效果展示</h2>
+<p align="center">
+	<img src="GIF/登录.gif" alt="登录"  width="500" height="277">
+	<p align="center">
+		<font >登录</font>
+	</p>
+</p>
+
+<p align="center">
+	<img src="GIF/公告.gif" alt="公告"  width="500" height="276">
+	<p align="center">
+		<font >公告</font>
+	</p>
+</p>
+
+<p align="center">
+	<img src="GIF/正确结果.gif" alt="正确结果"  width="500" height="276">
+	<p align="center">
+		<font >正确结果</font>
+	</p>
+</p>
+
+<p align="center">
+	<img src="GIF/错误结果.gif" alt="错误结果"  width="500" height="276">
+	<p align="center">
+		<font >错误结果</font>
+	</p>
+</p>
+
+<p align="center">
+	<img src="GIF/实验报表.gif" alt="实验报表" >
+	<p align="center">
+		<font >实验报表</font>
+	</p>
+</p>
+
+<p align="center">
+	<img src="GIF/OPC.gif" alt="OPC通讯效果" >
+	<p align="center">
+		<font >与Simulink联合仿真</font>
+	</p>
+</p>
+
+<h2>注</h2>
+* 实验二的基于Matlab脚本节点的PID实现未做动态演示，程序部分非常简单，一目了然。
+* 与Simulink的OPC通讯方法这里列举一下重点，读者可参考项目文件下的OPC1.slx文件及cosimulation.lvlib配置结合下面的主要步骤尝试实现
+	* 安装LabVIEW的DSC

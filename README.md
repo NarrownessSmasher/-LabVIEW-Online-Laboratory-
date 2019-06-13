@@ -114,9 +114,29 @@ ODBC的连接方式及设置方式以及有无数大佬发过极其详细的帖�
 	</p>
 </p>
 
-<h2>注</h2>
+<h2>注：</h2>
 <h4>1.实验二的基于Matlab脚本节点的PID实现未做动态演示，程序部分非常简单，一目了然。</h4>
 <h4>2.与Simulink的OPC通讯方法这里列举一下重点，读者可参考项目文件下的OPC1.slx文件及cosimulation.lvlib配置结合下面的主要步骤尝试实现</h4>
 <h5>　　（1）安装LabVIEW的DSC模块</h5>
-<h5>　　（2）右键点击项目文件</h5>
-	
+<h5>　　（2）新建IO服务器</h5>
+<p align="center">
+	<img src="img/新建IO服务器.png" alt="新建IO服务器" width="500" height="363" >
+</p>	
+
+<h5>　　（3）新建共享变量</h5>
+<p align="center">
+	<img src="img/新建共享变量.png" alt="新建共享变量" width="500" height="394" >
+</p>
+
+<h5>　　（4）在LabVIEW中配置共享变量</h5>
+<p align="center">
+	<img src="img/在LabVIEW中配置共享变量.png" alt="在LabVIEW中配置共享变量" width="500" height="216" >
+</p>
+
+<h5>　　（5）在Simulink中配置OPC属性</h5>
+<p align="center">
+	<img src="img/在Simulink中配置OPC属性.png" alt="在Simulink中配置OPC属性" width="500" height="216" >
+</p>
+
+<h4>3.实验报表系统相对简单，程序中有详细案例。这里为方便读者快速掌握方法提两个关键词：word中通过"书签"，excel中通过"别名"即类似于A1,C3这种属性来对数据插入点进行定位。</h4>
+<h1>欢迎搬运，但请注明出处并附链接，谢谢！</h1>

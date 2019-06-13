@@ -115,6 +115,8 @@ ODBC的连接方式及设置方式以及有无数大佬发过极其详细的帖�
 </p>
 
 <h2>注</h2>
-* 实验二的基于Matlab脚本节点的PID实现未做动态演示，程序部分非常简单，一目了然。
-* 与Simulink的OPC通讯方法这里列举一下重点，读者可参考项目文件下的OPC1.slx文件及cosimulation.lvlib配置结合下面的主要步骤尝试实现
-	* 安装LabVIEW的DSC
+<h4>1.实验二的基于Matlab脚本节点的PID实现未做动态演示，程序部分非常简单，一目了然。</h4>
+<h4>2.与Simulink的OPC通讯方法这里列举一下重点，读者可参考项目文件下的OPC1.slx文件及cosimulation.lvlib配置结合下面的主要步骤尝试实现</h4>
+<h5>　　（1）安装LabVIEW的DSC模块</h5>
+<h5>　　（2）右键点击项目文件</h5>
+	

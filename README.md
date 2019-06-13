@@ -71,6 +71,20 @@ ODBC的连接方式及设置方式以及有无数大佬发过极其详细的帖�
 		<font >进行应用程序默认设置</font>
 	</p>
 </p>
+
+<h2>程序框图预览</h2>
+
+<p align="center">
+	<img src="img/原程序.png" alt="原程序"  width="500" height="277">
+</p>
+
+<p align="center">
+	<img src="img/优化后程序.png" alt="优化后程序"  width="500" height="277">
+	<p align="center">
+		<font >优化后程序</font>
+	</p>
+</p>
+
 <h2>动图效果展示</h2>
 <p align="center">
 	<img src="GIF/登录.gif" alt="登录"  width="500" height="277">

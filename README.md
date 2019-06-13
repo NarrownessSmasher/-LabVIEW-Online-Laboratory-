@@ -1,6 +1,6 @@
 # 　　　　    　 基于LabVIEW的过控实验平台设计
 ## 概述 
-本程序为本科毕设《基于基于LabVIEW的过控实验平台设计》的具体实现，为作者学习LabVIEW近一周之后开始着手设计，设计两周后转向其他学习项目，之后到答辩之前偶尔修修补补，在网友面向晨曦帮助进行了程序的整体结构以及UI优化，从开始到完工横跨两个月。<br>
+本程序为本科毕设《基于基于LabVIEW的过控实验平台设计》的具体实现，为作者学习LabVIEW近一周之后开始着手设计，设计一周后转向其他学习项目，之后到答辩之前偶尔修修补补，在网友面向晨曦帮助进行了程序的整体结构以及UI优化，从开始到完工横跨两个月。<br>
 可供LabVIEW初学者借鉴的主要内容包括：
 * 数据库与LabVIEW的ODBC连接
 * 登录注册系统设计（关于修改密码之类的功能会有所提及）
@@ -20,7 +20,54 @@
 ## ODBC连接
 ODBC的连接方式及设置方式以及有无数大佬发过极其详细的帖子了，读者自行百度即可，这里只讲主要思路。<br>
 数据库我最初选择的是MySQL,本人对数据库几乎一无所知，所以这里推荐没有数据库基础的朋友使用Navicat For MySQL这款可视化数据库设计软件，可以省去很多麻烦。
-<br>这里放几张过程图：
+<br>这里放几张过程图：<br>
+<p align="center">
+	<img src="img/Navicat与MySQL建立连接.png" alt="Sample"  width="360" height="500">
+	<p align="center">
+		<font >Navicat与MySQL建立连接</font>
+	</p>
+</p>
 
+<p align="center">
+	<img src="img/建立信息表.png" alt="建立信息表"  width="500" height="313">
+	<p align="center">
+		<font >建立信息表</font>
+	</p>
+</p>
 
+<p align="center">
+	<img src="img/进行表设计.png" alt="进行表设计"  width="500" height="329">
+	<p align="center">
+		<font >进行表设计</font>
+	</p>
+</p>
 
+<p align="center">
+	<img src="img/进行表设计.png" alt="进行表设计"  width="500" height="329">
+	<p align="center">
+		<font >进行表设计</font>
+	</p>
+</p>
+
+<p align="center">
+	<img src="img/在命令窗口查看已建立数据库.png" alt="在命令窗口查看已建立数据库"  width="500" height="261">
+	<p align="center">
+		<font >在命令窗口查看已建立数据库</font>
+	</p>
+</p>
+
+<p align="center">
+	<img src="img/建立ODBC数据连接.png" alt="建立ODBC数据连接"  width="500" height="388">
+	<p align="center">
+		<font >建立ODBC数据连接</font>
+	</p>
+</p>
+
+<br>这里可能会出现一个问题，32位LabVIEW和64位的其他程序不兼容，可以百度搜索应用程序池，将下图的启用32位程序设置成TRUE可以解决很多32位64位不兼容的问题。
+
+<p align="center">
+	<img src="img/进行应用程序默认设置.png" alt="进行应用程序默认设置"  width="360" height="450">
+	<p align="center">
+		<font >进行应用程序默认设置</font>
+	</p>
+</p>
